@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel = "stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Simple Task board</h1>
+    </header>
+    <main>
+        
+        <form class = "add_new_to_do">
+            <input id = "tittle" type="text" placeholder="Task tittle"/>
+            <textarea id = "description" type="text" placeholder="Description"></textarea>
+            <button>Create</button>
+        </form>
+    
+        <div class = column>
+            <h1>TODO</h1>
+            <ul id = "to_do">
+            </ul>
+        </div>
+        <div>
+            <button class = "move_in_progress">></button>
+        </div>
+        <div class = column>
+            <h1>In progress</h1>
+            <ul id = "in_progress">
+            </ul>
+        </div>
+        <div>
+            <button class = "move_to_done">></button>
+        </div>
+        <div class = column >
+            <h1>Done</h1>
+            <ul id = "done">
+            </ul>
+        </div>
+    </main>
+
+    <script src="./activity.js"></script>
+</body>
+</html>

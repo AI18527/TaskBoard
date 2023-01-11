@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "id": "b0bd99d2b353a22764aa88f70ac37e9e",
+      "title": "Example",
+      "description": "This one is a simple description of a todo task",
+      "isInProgress": true,
+      "completed": false
+    },
+    {
+      "title": "to do the homework",
+      "description": "Frontend",
+      "isInProgress": false,
+      "completed": true,
+      "id": "211ebc1feb476d3ccde68ad91cc131a0"
+    },
+    {
+      "title": "new",
+      "description": "hello",
+      "isInProgress": false,
+      "completed": false,
+      "id": "ef645c11c6e2c1f5d2a3a79b6923be66"
+    },
+    {
+      "title": "send",
+      "description": "the homework",
+      "isInProgress": true,
+      "completed": false,
+      "id": "27d8c26398729317fa26ced1bbea6a21"
+    },
+    {
+      "title": "new",
+      "description": "how",
+      "isInProgress": true,
+      "completed": false,
+      "id": "560003bc20117c2eb1cf50bc1f9cc6c6"
+    },
+    {
+      "title": "task",
+      "description": "gvhgvh",
+      "isInProgress": false,
+      "completed": false,
+      "id": "f30b814133a4bbfdc0719a746afabe73"
+    }
+  ]
+}
